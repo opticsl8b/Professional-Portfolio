@@ -21,6 +21,7 @@ body {
     background-color:black;
     border-top: 10px solid white; 
     border-bottom: 10px solid white;
+    width: 100%;
 }
 
 .description {
@@ -34,7 +35,6 @@ body {
 
 nav ul{
     background-color:var(--dark);
-    height: 70px;
     height:auto;
     }
 
@@ -43,17 +43,17 @@ nav ul li{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    list-style-type: none;
-    justify-content: center;
-    align-items:center;
     
+       
 }
 
 nav ul li section{
-    border:none;
+
     text-align: center;
     flex-basis: 40%;
-    font-size: 24px; 
+    font-size: 24px;
+    align-self:center;
+    
 }
 nav ul li a{
     flex-basis: 15%;
@@ -92,16 +92,15 @@ button img{
 /* Personal picture */
 
 .mecoding{
-    border:none;
-    border-style:hidden; 
-    position: relative;
-    height: 500px;
-    width: 100%;
-    margin-top: 15px;
-    background-image: url("../Images/Coding.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;
+    width:100%;
+    height:400px;
+}
+
+.mecoding img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
     }
 
 /* About me*/
@@ -110,7 +109,8 @@ button img{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content:center;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     padding: 40px;
     background-color: var(--dark);
     padding-left: 15%;
@@ -124,7 +124,7 @@ button img{
     justify-content:center;
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 0%;
+    flex-basis: 35%;
     background-color: var(--dark);
     margin-left: 35px;
     margin-right: 35px;
@@ -178,6 +178,13 @@ button img{
     flex-basis: 50%;
     }
 
+.application card a img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
 .empty{
     display: flex;
     flex-wrap: wrap;
@@ -201,3 +208,24 @@ button img{
 .email div {
    margin: auto;
 }
+
+@media screen and (max-width: 992px) {
+
+    nav ul li section{
+    flex-basis: 25%;
+    }
+
+    .aboutme{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .aboutme div {
+    flex-basis: 30%;
+    }
+    
+
+}
+
+
+

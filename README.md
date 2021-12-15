@@ -4,7 +4,7 @@
 <h3 align="center">Porfolio Design Pratice</h3>
 
 <p align="center">
-<<<<<<< HEAD
+
 <img src="https://i.imgur.com/0UtynDg.gif" title="source: imgur.com" alt="Portfolio Preview"/>
 </p>
 
