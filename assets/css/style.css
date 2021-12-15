@@ -1,0 +1,203 @@
+/* Webpage-wise */
+*{
+    box-sizing: border-box;
+}
+/* Theme Color*/
+:root {
+    --dark:black;
+}
+
+
+/* Body */
+
+body {
+ background-color: whitesmoke;
+ font-family: 'mv boli';
+ color:white;
+ }
+
+.title {
+    display: flex;
+    background-color:black;
+    border-top: 10px solid white; 
+    border-bottom: 10px solid white;
+}
+
+.description {
+    margin: auto;
+    font-size: 40px;
+    }
+
+
+/* Nav Bar*/
+
+
+nav ul{
+    background-color:var(--dark);
+    height: 70px;
+    height:auto;
+    }
+
+nav ul li{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+nav ul li section{
+    border:none;
+    text-align: center;
+    flex-basis: 40%;
+    font-size: 24px; 
+}
+nav ul li a{
+    flex-basis: 15%;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    align-self:center;
+    opacity:1;
+}
+
+nav ul li a:hover{
+    
+    text-decoration: underline;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 25px rgb(7, 92, 50);
+}
+/* botton*/
+
+button{
+    position: fixed;
+    margin:0;
+    bottom:0;
+    right:0;
+    border:none;
+    background-color: transparent;
+}
+
+button img{
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    border:3px solid gray;
+    border-radius: 15%;
+}
+
+/* Personal picture */
+
+.mecoding{
+    border:none;
+    border-style:hidden; 
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin-top: 15px;
+    background-image: url("../Images/Coding.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    }
+
+/* About me*/
+.aboutme{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    height: 500px;
+    padding: 40px;
+    background-color: var(--dark);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.aboutme div{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0%;
+    background-color: var(--dark);
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.aboutme div span{
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.meworking{
+    margin: auto;
+}
+
+/* Skill*/
+
+.skillset {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+.skillset card {
+    display: flex;
+    border: 10% solid black;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.skillset card img{
+     margin: auto;
+     }
+
+/*Porfolio*/
+
+.application{        
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+.application card {
+    margin: auto;
+    flex-grow: 1;
+    flex-basis: 50%;
+    }
+
+.empty{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.empty img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+/*Porfolio*/
+
+.email{
+    display: flex;
+    justify-content:center;
+}
+
+.email div {
+   margin: auto;
+}
