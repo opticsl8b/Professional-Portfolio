@@ -162,14 +162,14 @@ button img{
     padding-right: 15%;
   }
 
-.skillset card {
+.skillset div {
     display: flex;
     border: 10% solid black;
     flex-grow: 1;
     flex-basis: 25%;
 }
 
-.skillset card img{
+.skillset div img{
      margin: auto;
      display: block;
      height:100%;
