@@ -11,10 +11,13 @@
 /* Body */
 
 body {
-    background-color: whitesmoke;
-    font-family: 'mv boli';
+    background-color: white;
+    font-family: 'mv boli','sans-serif','monospace';
     color:white;
  }
+
+
+/* Area Dividing Bar*/ 
 
 .title {
     display: flex;
@@ -27,10 +30,13 @@ body {
 .description {
     margin: auto;
     font-size: 40px;
- }
-
+}
 
 /* Nav Bar*/
+
+nav{
+    border-bottom: 10px solid white;
+}
 
 
 nav ul{
@@ -43,14 +49,14 @@ nav ul li{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
 }
 
 nav ul li section{
-
     text-align: center;
     flex-basis: 40%;
     font-size: 24px;
-    align-self:center;
+    
     
 }
 nav ul li a{
@@ -58,7 +64,6 @@ nav ul li a{
     text-decoration: none;
     text-align: center;
     color:white;
-    align-self:center;
 }
 
 nav ul li a:hover{
@@ -129,9 +134,13 @@ button img{
     margin-right: 35px;
 }
 
-.aboutme div span{
+.aboutme div p{
     margin-top: 25px;
     font-size: 18px;
+}
+
+.aboutme div span{
+    color: green;
 }
 
 .meworking{
@@ -219,12 +228,16 @@ button img{
 .email card a img:hover{
     opacity: 0.5;
     transform: scale(0.85);
+   
 }
+
+
+/* Responsive ViewPort Design */
 @media screen and (max-width: 992px) {
 
     nav ul li section{
         flex-basis: 100%;
-     
+          
     }
 
     nav ul li a{
