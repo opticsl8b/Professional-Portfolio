@@ -50,6 +50,7 @@ Taken to the deployed application when clicking</h3>
 <img src="https://i.imgur.com/qRY3rff.gif" title="source: imgur.com" alt="Responsive Layout"/>
 </p>
 <br>
+
 ---
 ---
 
